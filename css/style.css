@@ -1,0 +1,22 @@
+#wrapper {
+  width: 840px;
+  margin: 0 auto;
+  text-align: center;
+  background: #ccc; 
+}
+
+#frame  {
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+}
+
+#slide_tray {
+  position: relative; 
+}
+
+.slide {
+  width: 800px;
+  height: 600px;
+  float: left;
+}
