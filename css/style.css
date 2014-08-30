@@ -1,14 +1,23 @@
-#wrapper {
+body {
+  background: #ccc;
+  font-family: Helvetica, sans-serif;
+}
+
+#carousel {
+  background: white;
   width: 840px;
   margin: 0 auto;
   text-align: center;
-  background: #ccc; 
+  padding: 30px;
+  box-shadow: 5px 2px 10px #333;
 }
 
 #frame  {
   width: 800px;
   height: 600px;
   overflow: hidden;
+  margin: 0 auto;
+
 }
 
 #slide_tray {

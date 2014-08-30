@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>My jQuery Carousel</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <div id="wrapper">
+  <div id="carousel">
     
     <div id="frame">
       <div id="slide_tray">
@@ -20,15 +21,19 @@
           <img src="http://placekitten.com/g/800/600" alt="kitty">
         </div>
 
+        <div class="slide">
+          <iframe width="640" height="360" src="http://www.youtube.com/embed/D36JUfE1oYk" frameborder="0" allowfullscreen></iframe>
+        </div>
+
       </div> <!--ending of #slide tray -->
     </div> <!--ending #frame-->
 
-    <a href="#" id="previous">prev</a> | <a href="#" id="next">next</a>
+    <a href="#" id="prev">prev</a> | <a href="#" id="next">next</a>
 
   </div> )<!--ending of wrapper -->
 
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src=:js/carousel.js"></script>
+  <script src="js/carousel.js"></script>
 </body>
 </html>
